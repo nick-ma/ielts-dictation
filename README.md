@@ -11,7 +11,7 @@ Using this script is quite strightforward.
 ./st.sh <word_list_file> <interval> <keep_silence>
 ``` 
 
-| params | description | mandarin |
+| Parameter | Description | Mandatory |
 |--------|-------------|----------|
 |word_list_file| path to word list file | Y |
 |interval| interval time between 2 words, default is 2 seconds | N |
