@@ -1,0 +1,5 @@
+(1)	How often do you eat chocolate?
+(2)	What’s your favorite flavor?
+(3)	Is chocolate expensive in your country?
+(4)	When was your first time ate chocolate?
+(5) Is chocolate popular in your country?

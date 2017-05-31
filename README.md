@@ -8,13 +8,14 @@ Thanks for the great and powerful Accessibility Tools which provided by OS X sys
 Using this script is quite strightforward.
 
 ```bash
-./st.sh <word_list_file> <interval> <keep_silence>
+./st.sh <word_list_file> <interval> <mode> <keep_silence>
 ``` 
 
 | Parameter | Description | Mandatory |
 |--------|-------------|----------|
 |word_list_file| path to word list file | Y |
 |interval| interval time between 2 words, default is 2 seconds | N |
+|mode| choose work mode, dictation or speaking, default is dictation | N |
 |keep_silence| shut up and just start dictation | N |
 
 ### Examples
@@ -26,7 +27,12 @@ Using this script is quite strightforward.
 
 #### use data/wl01.txt as word list file and set interval time to 3 seconds and skip the introduction section
 ```bash
-./st.sh data/wl01.txt 3 s
+./st.sh data/wl01.txt 3 dictation ss
+```
+
+#### use speaking/p1_1_01.txt as speaking test questions list file and set interval time to 20 seconds and skip the introduction section
+```bash
+./st.sh speaking/p1_1_01.txt 20 speaking ss
 ```
 
 ## FAQ
